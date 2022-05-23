@@ -1,12 +1,12 @@
 <nav class="nhsuk-breadcrumb" aria-label="Breadcrumb">
     <div class="nhsuk-width-container">
         <ol class="nhsuk-breadcrumb__list">
-            <li class="nhsuk-breadcrumb__item"><a class="nhsuk-breadcrumb__link" href="{{ site.url }}">Home</a></li>
+            <li class="nhsuk-breadcrumb__item"><a class="nhsuk-breadcrumb__link" href="{{ site.url }}{{ site.baseurl }}">Home</a></li>
             {% if page.id %}
-            <li class="nhsuk-breadcrumb__item"><a class="nhsuk-breadcrumb__link" href="{{ site.url }}blog">Blog</a></li>
+            <li class="nhsuk-breadcrumb__item"><a class="nhsuk-breadcrumb__link" href="{{ site.url }}{{ site.baseurl }}/blog">Blog</a></li>
             {% endif %}
-            <li class="nhsuk-breadcrumb__item"><a class="nhsuk-breadcrumb__link" href="{{ site.url }}{{ page.url }}">{{ page.title }}</a></li>
+            <li class="nhsuk-breadcrumb__item"><a class="nhsuk-breadcrumb__link" href="{{ site.url }}{{ site.baseurl }}{{ page.url }}">{{ page.title }}</a></li>
         </ol>
-        <p class="nhsuk-breadcrumb__back"><a class="nhsuk-breadcrumb__backlink" href="{{ site.url }}">Back to home page</a></p>
+        <p class="nhsuk-breadcrumb__back"><a class="nhsuk-breadcrumb__backlink" href="{{ site.url }}{{ site.baseurl }}">Back to home page</a></p>
     </div>
 </nav>
