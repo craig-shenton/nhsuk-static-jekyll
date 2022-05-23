@@ -1,9 +1,9 @@
 # Site settings
-title:       NHS Python Community Website
+title:       nhsuk-static-jekyll
 email:       craig.shenton@nhs.net
 author:      Craig Robert Shenton
-description: "The NHS Python community is an open community of practice, driven by enthusiasts and advocates, championing the use of python programming language and open code in the NHS and healthcare sector."
-url:         "https://nhs-pycom.net/"
+description: "Static Jekyll implementation of the NHS.UK service manual "
+url:         ""
 date_format: "%b %-d, %Y"
 header_pages:
  - about.md
@@ -23,7 +23,7 @@ post_preview_image: true
 disqus_shortname:
 
 # Social icons
-github_username: nhs-pycom
+github_username: craig-shenton
 linkedin_username: 81285151
 
 # Post sharing icons

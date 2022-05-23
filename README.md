@@ -1,4 +1,4 @@
-# NHS Python Community Website
+#  nhsuk-static-jekyll
 
 <!-- PROJECT SHIELDS -->
 <!--
@@ -24,12 +24,12 @@
     <img src="https://github.com/jekyll/brand/blob/master/jekyll-logo-black-red-transparent.png?raw=true" alt="Logo" width="280">
   </a>
 
-  <h3 align="center">NHS Python Community Website</h3>
+  <h3 align="center">Jekyll implementation of the NHS.UK service manual</h3>
 
   <p align="center">
-    <a href="https://github.com/nhsx/au-azure-databricks/issues">Report Bug</a>
+    <a href="">Report Bug</a>
     ·
-    <a href="https://github.com/nhsx/au-azure-databricks/issues">Request Feature</a>
+    <a href="">Request Feature</a>
   </p>
 </p>
 
@@ -63,8 +63,6 @@
 
 ## About The Project
 
-Website for the NHS Python Community.
-
 This Jekyll theme was originally crafted by [John Otander](http://johnotander.com) as [Pixyll](https://github.com/johno/pixyll), then modified by [Sai Kiran Sripada](https://www.saikiransripada.com/), and then the NHS theme added by [Craig Robert Shenton](https://github.com/craig-shenton). It's free, and open source ([MIT](http://opensource.org/licenses/MIT)).
 
 _**Note:** No NHS data, public or private are shared in this repository._
@@ -78,7 +76,6 @@ _**Note:** No NHS data, public or private are shared in this repository._
 | _posts | [[Link](https://github.com/nhs-pycom/nhs.pycom/tree/main/_posts)] | Blog post markdown files |
 | _sass | [[Link](https://github.com/nhs-pycom/nhs.pycom/tree/main/_sass)] | basscess files |
 | assets | [[Link](https://github.com/nhs-pycom/nhs.pycom/tree/main/assets)] | Image assets |
-| board_notes | [[Link](https://github.com/nhs-pycom/nhs.pycom/tree/main/board_notes)] | Notes from NHS.Pycom board meetings |
 | css | [[Link](https://github.com/nhs-pycom/nhs.pycom/tree/main/css)] | css style files |
 
 ### Built With
@@ -95,10 +92,11 @@ To get a local copy up and running follow these simple steps.
 
 If you're completely new to Jekyll, I recommend checking out the documentation at <http://jekyllrb.com> or there's a tutorial by [Smashing Magazine](http://www.smashingmagazine.com/2014/08/01/build-blog-jekyll-github-pages/).
 
-```
-$ git clone git@github.com:nhs-pycom/nhs.pycom.git
+```bash
+$ git clone git@github.com:craig-shenton/nhsuk-static-jekyll.git
 $ cd nhs.pycom
-$ gem install bundler # If you don't have bundler installed
+$ gem install bundler 
+# If you don't have bundler installed
 $ bundle install
 ```
 
@@ -135,7 +133,7 @@ paginate: 3
 
 Then, start the Jekyll Server. I always like to give the `--watch` option so it updates the generated HTML when I make changes.
 
-```
+```bash
 $ jekyll serve --watch
 ```
 
@@ -283,7 +281,7 @@ _See [CONTRIBUTING.md]() for detailed guidance._
 
 ## License
 
-Distributed under the MIT License. _See [LICENSE.md](https://github.com/nhs-pycom/nhs.pycom/blob/main/LICENSE) for more information._
+Distributed under the MIT License. _See [LICENSE.md](https://github.com/craig-shenton/nhsuk-static-jekyll/blob/main/LICENSE) for more information._
 
 <!-- ACKNOWLEDGEMENTS
 ## Acknowledgements
