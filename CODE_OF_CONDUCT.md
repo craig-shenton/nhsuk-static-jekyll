@@ -1,8 +1,6 @@
 ---
 layout: page
 title: Code of Conduct
-permalink: /code_of_conduct/
-tags: Code of Conduct
 ---
 
 ### 1. Purpose
