@@ -315,9 +315,7 @@ Distributed under the MIT License. _See [LICENSE.md](https://github.com/{{ site.
 [code-lines-url]: https://github.com/{{ site.github_username }}/{{ site.baseurl }} -->
 
 <!-- MARKDOWN Variables -->
-[![Contributors][contributors-shield]][github-url][username]/[reponame]/[contributors-url]
-[![Contributors][contributors-shield]]([github-url][username]/[reponame]/[contributors-url])
-[![Contributors][contributors-shield]]("[github-url][username]/[reponame]/[contributors-url]")
+[![Contributors][contributors-shield]][url]
 
 [contributors-shield]: https://img.shields.io/github/contributors/craig-shenton/nhsuk-static-jekyll.svg?color=blue&style=for-the-badge
 [github-url]: https://github.com/
@@ -327,3 +325,4 @@ Distributed under the MIT License. _See [LICENSE.md](https://github.com/{{ site.
 
 [contributors]: contributors/
 [contributors-url]: graphs/contributors
+[url]: [github-url][username]/[reponame]/[contributors-url]
