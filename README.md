@@ -319,11 +319,11 @@ Distributed under the MIT License. _See [LICENSE.md](https://github.com/{{ site.
 [![Contributors][contributors-shield]]([github-url][username]/[reponame]/[contributors-url])
 [![Contributors][contributors-shield]]("[github-url][username]/[reponame]/[contributors-url]")
 
-contributors-shield]: https://img.shields.io/github/contributors/craig-shenton/nhsuk-static-jekyll.svg?color=blue&style=for-the-badge
+[contributors-shield]: https://img.shields.io/github/contributors/craig-shenton/nhsuk-static-jekyll.svg?color=blue&style=for-the-badge
 [github-url]: https://github.com/
 [shield-url]: https://img.shields.io/github/
 [username]: craig-shenton
 [reponame]: nhsuk-static-jekyll
 
 [contributors]: contributors/
-[contributors-url]: /graphs/contributors
+[contributors-url]: graphs/contributors
