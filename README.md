@@ -33,10 +33,6 @@
   </p>
 </p>
 
-See [documentation](http://bryanbraun.github.io/anchorjs/#basic-usage) for more options.
-
-### Web analytics and search engines
-
 <!-- TABLE OF CONTENTS -->
 <details open="open">
   <summary><h2 style="display: inline-block">Table of Contents</h2></summary>
@@ -54,7 +50,7 @@ See [documentation](http://bryanbraun.github.io/anchorjs/#basic-usage) for more 
         <!-- <li><a href="#prerequisites">Prerequisites</a></li> -->
         <li><a href="#verify-your-jekyll-version">Verify your Jekyll version</a></li>
         <li><a href="#fork,-then-clone">Fork, then clone</a></li>
-        <li><a href="#modify-the-`_config.yml`">Modify the `_config.yml`</a></li>
+        <li><a href="#modify-the-config.yml">Modify the config.yml</a></li>
         <li><a href="#jekyll-serve">Jekyll Serve</a></li>
         <li><a href="#using-github-pages">Using Github Pages</a></li>
         <li><a href="#contact-form">Contact Form</a></li>
@@ -265,7 +261,7 @@ And lastly - if you happen to write in language other than English be sure to ch
 If `git remote -v` doesn't have an upstream listed, you can do the following to add it:
 
 ```
-git remote add upstream https://github.com/saikiransripada/mixyll.git
+git remote add upstream https://github.com/{{ site.github_username }}/{{ site.baseurl }}.git
 ```
 
 #### Pull in the latest changes
@@ -294,7 +290,7 @@ _See [CONTRIBUTING.md]() for detailed guidance._
 
 ## License
 
-Distributed under the MIT License. _See [LICENSE.md](https://github.com/craig-shenton/nhsuk-static-jekyll/blob/main/LICENSE) for more information._
+Distributed under the MIT License. _See [LICENSE.md](https://github.com/{{ site.github_username }}/{{ site.baseurl }}/blob/main/LICENSE) for more information._
 
 <!-- ACKNOWLEDGEMENTS
 ## Acknowledgements
@@ -306,15 +302,15 @@ Distributed under the MIT License. _See [LICENSE.md](https://github.com/craig-sh
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
 
-[contributors-shield]: https://img.shields.io/github/contributors/nhs-pycom/nhs.pycom.svg?color=blue&style=for-the-badge
-[contributors-url]: https://github.com/nhs-pycom/nhs.pycom/graphs/contributors
-[forks-shield]: https://img.shields.io/github/forks/nhs-pycom/nhs.pycom.svg?color=blue&style=for-the-badge
-[forks-url]: https://github.com/nhs-pycom/nhs.pycom/network/members
-[stars-shield]: https://img.shields.io/github/stars/nhs-pycom/nhs.pycom.svg?color=blue&style=for-the-badge
-[stars-url]: https://github.com/nhs-pycom/nhs.pycom/stargazers
-[issues-shield]: https://img.shields.io/github/issues/nhs-pycom/nhs.pycom.svg?color=blue&style=for-the-badge
-[issues-url]: https://github.com/nhs-pycom/nhs.pycom/issues
-[license-shield]: https://img.shields.io/github/license/nhs-pycom/nhs.pycom.svg?color=blue&style=for-the-badge
-[license-url]: https://github.com/nhs-pycom/nhs.pycom/blob/main/LICENSE
-[code-lines]: https://img.shields.io/tokei/lines/github/nhs-pycom/nhs.pycom?color=blue&label=Code%20Lines&style=for-the-badge
-[code-lines-url]: https://github.com/nhs-pycom/nhs.pycom
+[contributors-shield]: https://img.shields.io/github/contributors/{{ site.github_username }}/{{ site.baseurl }}.svg?color=blue&style=for-the-badge
+[contributors-url]: https://github.com/{{ site.github_username }}/{{ site.baseurl }}/graphs/contributors
+[forks-shield]: https://img.shields.io/github/forks/{{ site.github_username }}/{{ site.baseurl }}.svg?color=blue&style=for-the-badge
+[forks-url]: https://github.com/{{ site.github_username }}/{{ site.baseurl }}/network/members
+[stars-shield]: https://img.shields.io/github/stars/{{ site.github_username }}/{{ site.baseurl }}.svg?color=blue&style=for-the-badge
+[stars-url]: https://github.com/{{ site.github_username }}/{{ site.baseurl }}/stargazers
+[issues-shield]: https://img.shields.io/github/issues/{{ site.github_username }}/{{ site.baseurl }}.svg?color=blue&style=for-the-badge
+[issues-url]: https://github.com/{{ site.github_username }}/{{ site.baseurl }}/issues
+[license-shield]: https://img.shields.io/github/license/{{ site.github_username }}/{{ site.baseurl }}.svg?color=blue&style=for-the-badge
+[license-url]: https://github.com/{{ site.github_username }}/{{ site.baseurl }}/blob/main/LICENSE
+[code-lines]: https://img.shields.io/tokei/lines/github/{{ site.github_username }}/{{ site.baseurl }}?color=blue&label=Code%20Lines&style=for-the-badge
+[code-lines-url]: https://github.com/{{ site.github_username }}/{{ site.baseurl }}
