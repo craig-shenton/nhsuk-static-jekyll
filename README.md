@@ -27,9 +27,9 @@
   <h3 align="center">Jekyll implementation of the NHS.UK service manual</h3>
 
   <p align="center">
-    <a href="https://github.com/{{ site.github_username }}/{{ site.baseurl }}/issues">Report Bug</a>
+    <a href="./issues">Report Bug</a>
     ·
-    <a href="https://github.com/{{ site.github_username }}/{{ site.baseurl }}/issues">Request Feature</a>
+    <a href="./issues">Request Feature</a>
   </p>
 </p>
 
@@ -80,12 +80,12 @@ _**Note:** No NHS data, public or private are shared in this repository._
 
 | Name | Link | Description |
 | ---- | --- | ------------ |
-| _includes | [[Link](https://github.com/{{ site.github_username }}/{{ site.baseurl }}/tree/main/_includes)] | Element templates |
-| _layouts | [[Link](https://github.com/{{ site.github_username }}/{{ site.baseurl }}/tree/main/_layouts )] | Page templates |
-| _posts | [[Link](https://github.com/{{ site.github_username }}/{{ site.baseurl }}/tree/main/_posts)] | Blog post markdown files |
-| _sass | [[Link](https://github.com/{{ site.github_username }}/{{ site.baseurl }}/tree/main/_sass)] | basscess files |
-| assets | [[Link](https://github.com/{{ site.github_username }}/{{ site.baseurl }}/tree/main/assets)] | Image assets |
-| css | [[Link](https://github.com/{{ site.github_username }}/{{ site.baseurl }}/tree/main/css)] | css style files |
+| _includes | [[Link](./tree/main/_includes)] | Element templates |
+| _layouts | [[Link](./tree/main/_layouts )] | Page templates |
+| _posts | [[Link](./tree/main/_posts)] | Blog post markdown files |
+| _sass | [[Link](./tree/main/_sass)] | basscess files |
+| assets | [[Link](./tree/main/assets)] | Image assets |
+| css | [[Link](./tree/main/css)] | css style files |
 
 ### Built With
 
@@ -302,8 +302,8 @@ Distributed under the MIT License. _See [LICENSE.md](https://github.com/{{ site.
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
 
-[contributors-shield]: https://img.shields.io/github/contributors/{{ site.github_username }}/{{ site.baseurl }}.svg?color=blue&style=for-the-badge
-[contributors-url]: https://github.com/{{ site.github_username }}/{{ site.baseurl }}/graphs/contributors
+[contributors-shield]: https://img.shields.io/github/contributors/./.svg?color=blue&style=for-the-badge
+[contributors-url]: ./graphs/contributors
 [forks-shield]: https://img.shields.io/github/forks/{{ site.github_username }}/{{ site.baseurl }}.svg?color=blue&style=for-the-badge
 [forks-url]: https://github.com/{{ site.github_username }}/{{ site.baseurl }}/network/members
 [stars-shield]: https://img.shields.io/github/stars/{{ site.github_username }}/{{ site.baseurl }}.svg?color=blue&style=for-the-badge
