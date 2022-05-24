@@ -27,11 +27,15 @@
   <h3 align="center">Jekyll implementation of the NHS.UK service manual</h3>
 
   <p align="center">
-    <a href="">Report Bug</a>
+    <a href="https://github.com/{{ site.github_username }}/{{ site.baseurl }}/issues">Report Bug</a>
     ·
-    <a href="">Request Feature</a>
+    <a href="https://github.com/{{ site.github_username }}/{{ site.baseurl }}/issues">Request Feature</a>
   </p>
 </p>
+
+See [documentation](http://bryanbraun.github.io/anchorjs/#basic-usage) for more options.
+
+### Web analytics and search engines
 
 <!-- TABLE OF CONTENTS -->
 <details open="open">
@@ -40,6 +44,7 @@
     <li>
       <a href="#about-the-project">About The Project</a>
       <ul>
+        <li><a href="#built-with">Folder Stucture</a></li>
         <li><a href="#built-with">Built With</a></li>
       </ul>
     </li>
@@ -47,11 +52,19 @@
       <a href="#getting-started">Getting Started</a>
       <ul>
         <!-- <li><a href="#prerequisites">Prerequisites</a></li> -->
-        <li><a href="#installation">Installation</a></li>
+        <li><a href="#verify-your-jekyll-version">Verify your Jekyll version</a></li>
+        <li><a href="#fork,-then-clone">Fork, then clone</a></li>
+        <li><a href="#modify-the-`_config.yml`">Modify the `_config.yml`</a></li>
+        <li><a href="#jekyll-serve">Jekyll Serve</a></li>
+        <li><a href="#using-github-pages">Using Github Pages</a></li>
+        <li><a href="#contact-form">Contact Form</a></li>
+        <li><a href="#disqus">Disqus</a></li>
+        <li><a href="#customizing-the-css">Customizing the CSS</a></li>
+        <li><a href="#page-animation">Page Animation</a></li>
+        <li><a href="#anchorjs">AnchorJS</a></li>
+        <li><a href="#web-analytics-and-search-engines">Web analytics and search engines</a></li>
       </ul>
     </li>
-    <li><a href="#usage">Usage</a></li>
-    <li><a href="#roadmap">Roadmap</a></li>
     <li><a href="#contributing">Contributing</a></li>
     <li><a href="#license">License</a></li>
     <li><a href="#contact">Contact</a></li>
@@ -71,12 +84,12 @@ _**Note:** No NHS data, public or private are shared in this repository._
 
 | Name | Link | Description |
 | ---- | --- | ------------ |
-| _includes | [[Link](https://github.com/nhs-pycom/nhs.pycom/tree/main/_includes)] | Element templates |
-| _layouts | [[Link](https://github.com/nhs-pycom/nhs.pycom/tree/main/_layouts )] | Page templates |
-| _posts | [[Link](https://github.com/nhs-pycom/nhs.pycom/tree/main/_posts)] | Blog post markdown files |
-| _sass | [[Link](https://github.com/nhs-pycom/nhs.pycom/tree/main/_sass)] | basscess files |
-| assets | [[Link](https://github.com/nhs-pycom/nhs.pycom/tree/main/assets)] | Image assets |
-| css | [[Link](https://github.com/nhs-pycom/nhs.pycom/tree/main/css)] | css style files |
+| _includes | [[Link](https://github.com/{{ site.github_username }}/{{ site.baseurl }}/tree/main/_includes)] | Element templates |
+| _layouts | [[Link](https://github.com/{{ site.github_username }}/{{ site.baseurl }}/tree/main/_layouts )] | Page templates |
+| _posts | [[Link](https://github.com/{{ site.github_username }}/{{ site.baseurl }}/tree/main/_posts)] | Blog post markdown files |
+| _sass | [[Link](https://github.com/{{ site.github_username }}/{{ site.baseurl }}/tree/main/_sass)] | basscess files |
+| assets | [[Link](https://github.com/{{ site.github_username }}/{{ site.baseurl }}/tree/main/assets)] | Image assets |
+| css | [[Link](https://github.com/{{ site.github_username }}/{{ site.baseurl }}/tree/main/css)] | css style files |
 
 ### Built With
 
