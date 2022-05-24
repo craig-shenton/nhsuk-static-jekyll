@@ -277,9 +277,7 @@ _See [CONTRIBUTING.md](./CONTRIBUTING.md) for detailed guidance._
 
 Distributed under the MIT License. _See [LICENSE.md](./LICENSE) for more information._
 
-<!-- ACKNOWLEDGEMENTS
+<!-- ACKNOWLEDGEMENTS -->
 ## Acknowledgements
 
-* []()
-* []()
-* []() -->
+* Splash Photo by <a class="nhsuk-footer__list-item-link" href="https://unsplash.com/@cdr6934?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Chris Ried</a>
