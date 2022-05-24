@@ -10,9 +10,11 @@
   <h3 align="center">Jekyll implementation of the NHS.UK service manual</h3>
 
   <p align="center">
-    <a href="./issues">Report Bug</a>
+    <!-- Replace with your repo URL -->
+    <a href="https://github.com/craig-shenton/nhsuk-static-jekyll/issues">Report Bug</a>
     ·
-    <a href="./issues">Request Feature</a>
+    <!-- Replace with your repo URL -->
+    <a href="https://github.com/craig-shenton/nhsuk-static-jekyll/issues">Request Feature</a>
   </p>
 </p>
 
@@ -267,7 +269,7 @@ Contributions are what make the open source community such an amazing place to l
 4. Push to the Branch (`git push origin feature/AmazingFeature`)
 5. Open a Pull Request
 
-_See [./CONTRIBUTING.md]() for detailed guidance._
+_See [CONTRIBUTING.md](./CONTRIBUTING.md) for detailed guidance._
 
 <!-- LICENSE -->
 
