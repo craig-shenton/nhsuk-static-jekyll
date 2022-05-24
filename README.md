@@ -80,12 +80,12 @@ _**Note:** No NHS data, public or private are shared in this repository._
 
 | Name | Link | Description |
 | ---- | --- | ------------ |
-| _includes | [[Link](./tree/main/_includes)] | Element templates |
-| _layouts | [[Link](./tree/main/_layouts )] | Page templates |
-| _posts | [[Link](./tree/main/_posts)] | Blog post markdown files |
-| _sass | [[Link](./tree/main/_sass)] | basscess files |
-| assets | [[Link](./tree/main/assets)] | Image assets |
-| css | [[Link](./tree/main/css)] | css style files |
+| _includes | [[Link](./_includes)] | Element templates |
+| _layouts | [[Link](./_layouts )] | Page templates |
+| _posts | [[Link](./_posts)] | Blog post markdown files |
+| _sass | [[Link](./_sass)] | basscess files |
+| assets | [[Link](./assets)] | Image assets |
+| css | [[Link](./css)] | css style files |
 
 ### Built With
 
@@ -302,9 +302,9 @@ Distributed under the MIT License. _See [LICENSE.md](https://github.com/{{ site.
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
 
-[contributors-shield]: https://img.shields.io/github/contributors/./.svg?color=blue&style=for-the-badge
-[contributors-url]: ./graphs/contributors
-[forks-shield]: https://img.shields.io/github/forks/{{ site.github_username }}/{{ site.baseurl }}.svg?color=blue&style=for-the-badge
+[contributors-shield]: https://img.shields.io/github/contributors/[username]/[reponame].svg?color=blue&style=for-the-badge
+[contributors-url]: https://github.com/[username]/[reponame]/graphs/contributors
+[forks-shield]: https://img.shields.io/github/forks/[username]/[reponame].svg?color=blue&style=for-the-badge
 [forks-url]: https://github.com/{{ site.github_username }}/{{ site.baseurl }}/network/members
 [stars-shield]: https://img.shields.io/github/stars/{{ site.github_username }}/{{ site.baseurl }}.svg?color=blue&style=for-the-badge
 [stars-url]: https://github.com/{{ site.github_username }}/{{ site.baseurl }}/stargazers
@@ -314,3 +314,7 @@ Distributed under the MIT License. _See [LICENSE.md](https://github.com/{{ site.
 [license-url]: https://github.com/{{ site.github_username }}/{{ site.baseurl }}/blob/main/LICENSE
 [code-lines]: https://img.shields.io/tokei/lines/github/{{ site.github_username }}/{{ site.baseurl }}?color=blue&label=Code%20Lines&style=for-the-badge
 [code-lines-url]: https://github.com/{{ site.github_username }}/{{ site.baseurl }}
+
+<!-- MARKDOWN Variables -->
+[username]: craig-shenton
+[reponame]: nhsuk-static-jekyll
