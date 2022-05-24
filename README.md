@@ -78,6 +78,25 @@ _**Note:** No NHS data, public or private are shared in this repository._
 - [Liquid](https://shopify.github.io/liquid/)
 - [NHS Digital Service Manual](https://service-manual.nhs.uk/)
 
+## Deploy to GitHub.io page
+
+```yml
+# Edit these site settings
+# ------------------------------------------
+title:             nhsuk-static-jekyll
+email:             craig.shenton@nhs.net
+author:            Craig Robert Shenton
+description:       "Static Jekyll implementation of the NHS.UK service manual "
+url:               "https://craig-shenton.github.io/"
+baseurl:           "nhsuk-static-jekyll/"
+github_username:   craig-shenton
+linkedin_username: craigrshenton
+date_format:       "%b %-d, %Y"
+# ------------------------------------------
+```
+
+# Developer Documentation
+
 <!-- GETTING STARTED -->
 
 ## Getting Started

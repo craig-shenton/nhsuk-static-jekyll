@@ -1,21 +1,22 @@
-# Site settings
-title:       nhsuk-static-jekyll
-email:       craig.shenton@nhs.net
-author:      Craig Robert Shenton
-description: "Static Jekyll implementation of the NHS.UK service manual "
-url:         "https://craig-shenton.github.io/"
-baseurl:     "nhsuk-static-jekyll/"
-date_format: "%b %-d, %Y"
-header_pages:
- - about.md
-
-google_analytics:
+# Edit these site settings
+# ------------------------------------------
+title:             nhsuk-static-jekyll
+email:             craig.shenton@nhs.net
+author:            Craig Robert Shenton
+description:       "Static Jekyll implementation of the NHS.UK service manual "
+url:               "https://craig-shenton.github.io/"
+baseurl:           "nhsuk-static-jekyll/"
+github_username:   craig-shenton
+linkedin_username: craigrshenton
+date_format:       "%b %-d, %Y"
+# ------------------------------------------
 
 # Optional features
 animated:             true
 show_related_posts:   true
 show_post_footers:    false
 show_social_icons:    true
+google_analytics:
 
 # Preview image for social media aka og:image and twitter:image
 post_preview_image: true
@@ -23,17 +24,13 @@ post_preview_image: true
 # Disqus post comments
 disqus_shortname:
 
-# Social icons
-github_username: craig-shenton
-linkedin_username: craigrshenton
-
 # Post sharing icons
-show_sharing_icons: true
+show_sharing_icons: false
 # Change to 'true' to enable individual icons
 share_facebook: false
-share_twitter: true
+share_twitter: false
 share_googleplus: false
-share_linkedin: true
+share_linkedin: false
 share_digg: false
 share_tumblr: false
 share_reddit: false
