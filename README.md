@@ -10,7 +10,7 @@
 -->
 
 [![Contributors][contributors-shield]][contributors-url]
-[![Code Lines][code-lines]][code-lines-url]
+[![Code Lines][github-url][username]/[reponame]/[contributors-url]
 [![Forks][forks-shield]][forks-url]
 [![Stargazers][stars-shield]][stars-url]
 [![Issues][issues-shield]][issues-url]
@@ -303,7 +303,7 @@ Distributed under the MIT License. _See [LICENSE.md](https://github.com/{{ site.
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
 
 [contributors-shield]: https://img.shields.io/github/contributors/[username]/[reponame].svg?color=blue&style=for-the-badge
-[contributors-url]: https://github.com/[username]/[reponame]/graphs/contributors
+
 [forks-shield]: https://img.shields.io/github/forks/[username]/[reponame].svg?color=blue&style=for-the-badge
 [forks-url]: https://github.com/{{ site.github_username }}/{{ site.baseurl }}/network/members
 [stars-shield]: https://img.shields.io/github/stars/{{ site.github_username }}/{{ site.baseurl }}.svg?color=blue&style=for-the-badge
@@ -316,5 +316,13 @@ Distributed under the MIT License. _See [LICENSE.md](https://github.com/{{ site.
 [code-lines-url]: https://github.com/{{ site.github_username }}/{{ site.baseurl }}
 
 <!-- MARKDOWN Variables -->
+<!-- # Ref: https://www.brianchildress.co/variables-in-markdown/ -->
+[github-url]: https://github.com/
+[shield-url]: https://img.shields.io/github/
 [username]: craig-shenton
 [reponame]: nhsuk-static-jekyll
+
+[contributors]: contributors/
+[contributors-url]: /graphs/contributors
+
+[github-url][username]/[reponame]/[contributors-url]
