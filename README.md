@@ -1,21 +1,5 @@
 #  nhsuk-static-jekyll
 
-<!-- PROJECT SHIELDS -->
-<!--
-*** I'm using markdown "reference style" links for readability.
-*** Reference links are enclosed in brackets [ ] instead of parentheses ( ).
-*** See the bottom of this document for the declaration of the reference variables
-*** for contributors-url, forks-url, etc. This is an optional, concise syntax you may use.
-*** https://www.markdownguide.org/basic-syntax/#reference-style-links
--->
-
-<!-- [![Code Lines][code-lines]][code-lines-url]
-[![Forks][forks-shield]][forks-url]
-[![Stargazers][stars-shield]][stars-url]
-[![Issues][issues-shield]][issues-url]
-[![MIT License][license-shield]][license-url] -->
-
-
 <!-- PROJECT LOGO -->
 <br />
 <p align="center">
@@ -289,7 +273,7 @@ _See [CONTRIBUTING.md]() for detailed guidance._
 
 ## License
 
-Distributed under the MIT License. _See [LICENSE.md](https://github.com/{{ site.github_username }}/{{ site.baseurl }}/blob/main/LICENSE) for more information._
+Distributed under the MIT License. _See [LICENSE.md](./LICENSE) for more information._
 
 <!-- ACKNOWLEDGEMENTS
 ## Acknowledgements
@@ -297,32 +281,3 @@ Distributed under the MIT License. _See [LICENSE.md](https://github.com/{{ site.
 * []()
 * []()
 * []() -->
-
-<!-- MARKDOWN LINKS & IMAGES -->
-<!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
-
-<!-- [contributors-shield]: https://img.shields.io/github/contributors/[username]/[reponame].svg?color=blue&style=for-the-badge
-
-[forks-shield]: https://img.shields.io/github/forks/[username]/[reponame].svg?color=blue&style=for-the-badge
-[forks-url]: https://github.com/{{ site.github_username }}/{{ site.baseurl }}/network/members
-[stars-shield]: https://img.shields.io/github/stars/{{ site.github_username }}/{{ site.baseurl }}.svg?color=blue&style=for-the-badge
-[stars-url]: https://github.com/{{ site.github_username }}/{{ site.baseurl }}/stargazers
-[issues-shield]: https://img.shields.io/github/issues/{{ site.github_username }}/{{ site.baseurl }}.svg?color=blue&style=for-the-badge
-[issues-url]: https://github.com/{{ site.github_username }}/{{ site.baseurl }}/issues
-[license-shield]: https://img.shields.io/github/license/{{ site.github_username }}/{{ site.baseurl }}.svg?color=blue&style=for-the-badge
-[license-url]: https://github.com/{{ site.github_username }}/{{ site.baseurl }}/blob/main/LICENSE
-[code-lines]: https://img.shields.io/tokei/lines/github/{{ site.github_username }}/{{ site.baseurl }}?color=blue&label=Code%20Lines&style=for-the-badge
-[code-lines-url]: https://github.com/{{ site.github_username }}/{{ site.baseurl }} -->
-
-<!-- MARKDOWN Variables -->
-[![Contributors][contributors-shield]][url]
-
-[contributors-shield]: https://img.shields.io/github/contributors/craig-shenton/nhsuk-static-jekyll.svg?color=blue&style=for-the-badge
-[github-url]: https://github.com/
-[shield-url]: https://img.shields.io/github/
-[username]: craig-shenton
-[reponame]: nhsuk-static-jekyll
-
-[contributors]: contributors/
-[contributors-url]: graphs/contributors
-[url]: [github-url][username]/[reponame]/[contributors-url]
