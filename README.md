@@ -9,8 +9,8 @@
 *** https://www.markdownguide.org/basic-syntax/#reference-style-links
 -->
 
-[![Contributors][contributors-shield]][contributors-url]
-[![Code Lines][github-url][username]/[reponame]/[contributors-url]
+[![Contributors][contributors-shield]][github-url][username]/[reponame]/[contributors-url]
+[![Code Lines][code-lines]][code-lines-url]
 [![Forks][forks-shield]][forks-url]
 [![Stargazers][stars-shield]][stars-url]
 [![Issues][issues-shield]][issues-url]
