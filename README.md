@@ -9,12 +9,11 @@
 *** https://www.markdownguide.org/basic-syntax/#reference-style-links
 -->
 
-[![Contributors][contributors-shield]][github-url][username]/[reponame]/[contributors-url]
-[![Code Lines][code-lines]][code-lines-url]
+<!-- [![Code Lines][code-lines]][code-lines-url]
 [![Forks][forks-shield]][forks-url]
 [![Stargazers][stars-shield]][stars-url]
 [![Issues][issues-shield]][issues-url]
-[![MIT License][license-shield]][license-url]
+[![MIT License][license-shield]][license-url] -->
 
 
 <!-- PROJECT LOGO -->
@@ -302,7 +301,7 @@ Distributed under the MIT License. _See [LICENSE.md](https://github.com/{{ site.
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
 
-[contributors-shield]: https://img.shields.io/github/contributors/[username]/[reponame].svg?color=blue&style=for-the-badge
+<!-- [contributors-shield]: https://img.shields.io/github/contributors/[username]/[reponame].svg?color=blue&style=for-the-badge
 
 [forks-shield]: https://img.shields.io/github/forks/[username]/[reponame].svg?color=blue&style=for-the-badge
 [forks-url]: https://github.com/{{ site.github_username }}/{{ site.baseurl }}/network/members
@@ -313,10 +312,14 @@ Distributed under the MIT License. _See [LICENSE.md](https://github.com/{{ site.
 [license-shield]: https://img.shields.io/github/license/{{ site.github_username }}/{{ site.baseurl }}.svg?color=blue&style=for-the-badge
 [license-url]: https://github.com/{{ site.github_username }}/{{ site.baseurl }}/blob/main/LICENSE
 [code-lines]: https://img.shields.io/tokei/lines/github/{{ site.github_username }}/{{ site.baseurl }}?color=blue&label=Code%20Lines&style=for-the-badge
-[code-lines-url]: https://github.com/{{ site.github_username }}/{{ site.baseurl }}
+[code-lines-url]: https://github.com/{{ site.github_username }}/{{ site.baseurl }} -->
 
 <!-- MARKDOWN Variables -->
-<!-- # Ref: https://www.brianchildress.co/variables-in-markdown/ -->
+[![Contributors][contributors-shield]][github-url][username]/[reponame]/[contributors-url]
+[![Contributors][contributors-shield]]([github-url][username]/[reponame]/[contributors-url])
+[![Contributors][contributors-shield]]("[github-url][username]/[reponame]/[contributors-url]")
+
+contributors-shield]: https://img.shields.io/github/contributors/craig-shenton/nhsuk-static-jekyll.svg?color=blue&style=for-the-badge
 [github-url]: https://github.com/
 [shield-url]: https://img.shields.io/github/
 [username]: craig-shenton
@@ -324,5 +327,3 @@ Distributed under the MIT License. _See [LICENSE.md](https://github.com/{{ site.
 
 [contributors]: contributors/
 [contributors-url]: /graphs/contributors
-
-[github-url][username]/[reponame]/[contributors-url]
