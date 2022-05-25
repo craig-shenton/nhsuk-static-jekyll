@@ -80,20 +80,34 @@ _**Note:** No NHS data, public or private are shared in this repository._
 
 ## Deploy to GitHub.io page
 
+1. Hit the green 'Use this template' button at the top of this repository page.
+2. A new site will open asking you to create a new repository from `nhsuk-static-jekyll`.
+3. Give your repository a name. 
+4. This is form part of the new website's URL: `https://{github username}.github.io/{repository name}/`.
+5. Set the visability to `Public` i.e., Anyone on the internet can see this repository.
+6. Hit the green 'Create repository from template' button.
+7. GitHub will then clone all the code used to build the website to your new repository.
+8. Go to the [_config.yml](https://github.com/craig-shenton/nhsuk-static-jekyll/blob/main/_config.yml) in your new repository.
+9. Edit the site settings shown below:
+
 ```yml
-# Edit these site settings
-# ------------------------------------------
-title:             nhsuk-static-jekyll
-email:             craig.shenton@nhs.net
-author:            Craig Robert Shenton
-description:       "Static Jekyll implementation of the NHS.UK service manual "
-url:               "https://craig-shenton.github.io/"
-baseurl:           "nhsuk-static-jekyll/"
-github_username:   craig-shenton
-linkedin_username: craigrshenton
-date_format:       "%b %-d, %Y"
-# ------------------------------------------
+# ---------------------------------------------------------------------------------------------------------
+title:               nhsuk-static-jekyll                  Add a title to your website
+email:               craig.shenton@nhs.net                Add your email to the contacts page
+author:              Craig Robert Shenton                 Add your name as the defult author for blog posts
+description:         "My first website"                   Add sub-text to the 'hero' card on the home page
+url:                 "https://craig-shenton.github.io/"   Set to "https://{github_username}.github.io"
+baseurl:             "nhsuk-static-jekyll/"               Set this as the same name as your repository
+github_username:     craig-shenton                        For adding links to your GitHub page
+linkedin_username:   craigrshenton                        For adding links to your LinkedIn page
+date_format:         "%b %-d, %Y"                         Sets the date format for the blog pages
+# ---------------------------------------------------------------------------------------------------------
 ```
+10. Commit your changes to the repository
+11. Go to `Settings > Pages > Source`, change the main branch to `main` and save.
+12. GitHub will now deploy your website (~2mins)
+13. Go the URL `https://{github username}.github.io/{repository name}/` to view your site.
+14. Congratulations! Your website is public.
 
 # Developer Documentation
 
