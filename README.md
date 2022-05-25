@@ -28,28 +28,28 @@
         <li><a href="#built-with">Folder Stucture</a></li>
         <li><a href="#built-with">Built With</a></li>
       </ul>
+      <a href="#deploy-to-a-githubio-page">Deploy to a GitHub.io page</a>
     </li>
     <li>
-      <a href="#getting-started">Getting Started</a>
+      <a href="#developer-documentation">Developer Documentation</a>
       <ul>
-        <!-- <li><a href="#prerequisites">Prerequisites</a></li> -->
-        <li><a href="#verify-your-jekyll-version">Verify your Jekyll version</a></li>
-        <li><a href="#fork,-then-clone">Fork, then clone</a></li>
-        <li><a href="#modify-the-config.yml">Modify the config.yml</a></li>
-        <li><a href="#jekyll-serve">Jekyll Serve</a></li>
-        <li><a href="#using-github-pages">Using Github Pages</a></li>
-        <li><a href="#contact-form">Contact Form</a></li>
-        <li><a href="#disqus">Disqus</a></li>
-        <li><a href="#customizing-the-css">Customizing the CSS</a></li>
-        <li><a href="#page-animation">Page Animation</a></li>
-        <li><a href="#anchorjs">AnchorJS</a></li>
-        <li><a href="#web-analytics-and-search-engines">Web analytics and search engines</a></li>
+          <li><a href="#getting-started">Getting Started</a></li>
+          <li><a href="#verify-your-jekyll-version">Verify your Jekyll version</a></li>
+          <li><a href="#fork-then-clone">Fork, then clone</a></li>
+          <li><a href="#modify-the-_configyml">Modify the config.yml</a></li>
+          <li><a href="#jekyll-serve">Jekyll Serve</a></li>
+          <li><a href="#using-github-pages">Using Github Pages</a></li>
+          <li><a href="#contact-form">Contact Form</a></li>
+          <li><a href="#disqus">Disqus</a></li>
+          <li><a href="#customizing-the-css">Customizing the CSS</a></li>
+          <li><a href="#page-animation">Page Animation</a></li>
+          <li><a href="#anchorjs">AnchorJS</a></li>
+          <li><a href="#web-analytics-and-search-engines">Web analytics and search engines</a></li>
       </ul>
     </li>
     <li><a href="#contributing">Contributing</a></li>
     <li><a href="#license">License</a></li>
-    <li><a href="#contact">Contact</a></li>
-    <!-- <li><a href="#acknowledgements">Acknowledgements</a></li> -->
+    <li><a href="#acknowledgements">Acknowledgements</a></li>
   </ol>
 </details>
 
@@ -78,7 +78,7 @@ _**Note:** No NHS data, public or private are shared in this repository._
 - [Liquid](https://shopify.github.io/liquid/)
 - [NHS Digital Service Manual](https://service-manual.nhs.uk/)
 
-## Deploy to GitHub.io page
+## Deploy to a GitHub.io page
 
 1. Hit the green 'Use this template' button at the top of this repository page.
 2. A new site will open asking you to create a new repository from `nhsuk-static-jekyll`.
@@ -107,13 +107,13 @@ date_format:         "%b %-d, %Y"                         Sets the date format f
 11. Go to `Settings > Pages > Source`, change the main branch to `main` and save.
 12. GitHub will now deploy your website (~2mins)
 13. Go the URL `https://{github username}.github.io/{repository name}/` to view your site.
-14. Congratulations! Your website is public.
+14. Congratulations! Your website is public [[live example](https://craig-shenton.github.io/nhsuk-static-jekyll/)].
 
-# Developer Documentation
+## Developer Documentation
 
 <!-- GETTING STARTED -->
 
-## Getting Started
+### Getting Started
 
 To get a local copy up and running follow these simple steps.
 
